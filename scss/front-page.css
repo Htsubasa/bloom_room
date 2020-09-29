@@ -341,7 +341,7 @@ html body {
 }
 
 html body header {
-  margin-bottom: 30px;
+  margin-bottom: 28px;
   /*header-inner*/
 }
 
@@ -352,7 +352,7 @@ html body header img {
 }
 
 html body header #header-inner {
-  max-width: 1400px;
+  max-width: 1300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -360,7 +360,7 @@ html body header #header-inner {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 0 auto;
-  padding-top: 40px;
+  padding-top: 30px;
   padding-right: 15px;
   padding-left: 15px;
   -webkit-box-sizing: border-box;
@@ -384,11 +384,9 @@ html body header #header-inner {
 
 html body header #header-inner .logo {
   font-family: 'Cabin', sans-serif;
-  font-size: 50px;
+  font-size: 33px;
   font-weight: bold;
   width: 280px;
-  height: 60px;
-  line-height: 67px;
   color: #414141;
 }
 
@@ -472,7 +470,7 @@ html body header #header-inner .btn-gnavi {
   display: initial;
   position: fixed;
   top: 25px;
-  right: 4%;
+  right: 7%;
   width: 30px;
   height: 24px;
   z-index: 4;
@@ -589,11 +587,11 @@ html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li button {
 
 html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li button:before {
   content: '';
-  width: 35px;
+  width: 20px;
   text-indent: 0px;
   position: absolute;
   top: -80px;
-  left: 720px;
+  left: 870px;
   border-bottom: 3px solid white;
 }
 
@@ -635,7 +633,7 @@ html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li:first-child:b
   color: #6CD6DB;
   position: absolute;
   top: -72px;
-  left: 695px;
+  left: 850px;
   font-weight: bold;
 }
 
@@ -677,7 +675,7 @@ html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots li:last-child:af
   color: white;
   position: absolute;
   top: -72px;
-  left: 760px;
+  left: 880px;
   font-weight: bold;
 }
 
@@ -723,12 +721,12 @@ html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots .slick-active bu
 }
 
 html body .mainvisual .mainvisual-wrap .slider-wrap .slick-dots .slick-active button:before {
-  width: 35px;
+  width: 20px;
   content: '';
   text-indent: 0px;
   position: absolute;
   top: -80px;
-  left: 720px;
+  left: 820px;
   border-bottom: 3px solid #6CD6DB;
 }
 
@@ -801,6 +799,7 @@ html body .mainvisual .mainvisual-wrap .slider-wrap .slider li .slider-img {
 html body .mainvisual .mainvisual-wrap .slider-wrap .slider li .slider-img img {
   width: 100%;
   margin: 0 auto;
+  height: 660px;
   text-align: center;
 }
 
@@ -823,7 +822,7 @@ html body .mainvisual .mainvisual-wrap .slider-wrap .slider li .slider-img img {
 html body .mainvisual .mainvisual-wrap .mainvisual_text {
   position: absolute;
   top: 35%;
-  left: 8%;
+  left: 12.5%;
   opacity: 0;
   transform: translate(0, 30px);
   -webkit-transform: translate(0, 30px);
@@ -908,7 +907,7 @@ html body .mainvisual .mainvisual-wrap .scroll_wrap a {
 html body .mainvisual .mainvisual-wrap .scroll_wrap a p {
   position: absolute;
   top: -190px;
-  left: 120px;
+  left: 170px;
   letter-spacing: 0.1em;
 }
 
@@ -975,10 +974,11 @@ html body .container_pc .container_wrapper_pc {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 1100px;
+  width: 1165px;
   margin: 0 auto;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-bottom: 180px;
   /*main_pc*/
   /*conctpt_text*/
@@ -1167,7 +1167,7 @@ html body .container_pc .container_wrapper_pc .concept_text.active {
 
 html body .container_pc .container_wrapper_pc .side-text {
   position: absolute;
-  right: 0px;
+  right: 50px;
   top: 250px;
   z-index: -1;
 }
@@ -1375,10 +1375,10 @@ html body .menu {
 
 html body .menu .menu-wrap {
   background-image: url(../img/front/menu-image.png);
-  background-size: cover;
+  background-size: contain;
   margin: 0 auto;
   position: relative;
-  height: 545px;
+  height: 500px;
   width: 100%;
   /*img*/
   /*concept*/
@@ -1401,11 +1401,12 @@ html body .menu .menu-wrap {
 
 html body .menu .menu-wrap img {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -70px;
+  right: 0%;
   bottom: 0;
   left: 0;
-  width: 505px;
+  width: 450px;
+  height: 183px;
   margin: auto;
   opacity: 0;
   transform: translate(0, 30px);
@@ -1444,8 +1445,8 @@ html body .menu .menu-wrap .concept {
   -webkit-transition: all 1.5s;
   transition: all 1.5s;
   position: absolute;
-  top: 75%;
-  left: 50%;
+  top: 72%;
+  left: 45%;
   /*a*/
 }
 
@@ -1633,7 +1634,8 @@ html body .menu .menu-wrap .concept:hover .cp_arrows {
 html body .gallery_pc {
   padding-top: 165px;
   background-image: url(../img/front/gallery-logo.png);
-  background-position: 65% 23%;
+  background-position: 70% 22.5%;
+  background-size: 320px;
   padding-bottom: 140px;
   overflow: hidden;
   background-color: #EDFEFF;
@@ -1953,7 +1955,7 @@ html body .gallery .gallery-item h3 {
   -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
           writing-mode: vertical-rl;
-  font-size: 22px;
+  font-size: 39px;
   letter-spacing: 0.05;
   /*span*/
 }
@@ -2029,7 +2031,7 @@ html body .event_pc {
 
 html body .event_pc .event_pc_wrap {
   background-image: url(../img/front/event.png);
-  background-size: cover;
+  background-size: contain;
   height: 546px;
   position: relative;
   /*event-content*/
@@ -2044,16 +2046,16 @@ html body .event_pc .event_pc_wrap {
 html body .event_pc .event_pc_wrap .event-content {
   border: 7px solid white;
   text-align: center;
-  width: 693px;
+  width: 640px;
   opacity: 0;
   transform: translate(0, 30px);
   -webkit-transform: translate(0, 30px);
   -webkit-transition: all 1.5s;
   transition: all 1.5s;
-  padding-top: 82px;
+  padding-top: 77px;
   margin: 0 auto;
   position: absolute;
-  top: 0;
+  top: -20px;
   right: 0;
   bottom: 0;
   left: 0;
@@ -2073,10 +2075,9 @@ html body .event_pc .event_pc_wrap .event-content {
 
 html body .event_pc .event_pc_wrap .event-content h2 {
   color: white;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-size: 31px;
   font-family: 'Noto Sans JP', sans-serif;
-  font-weight: normal;
 }
 
 @media (max-width: 768px) {
@@ -2091,6 +2092,7 @@ html body .event_pc .event_pc_wrap .event-content p {
   display: inline-block;
   font-size: 21px;
   font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {
@@ -2258,7 +2260,7 @@ html body .access-wrap p {
 
 html body .access-wrap .google-map {
   margin-top: 30px;
-  height: 705px;
+  height: 630px;
   /*iframe*/
 }
 
@@ -2308,7 +2310,7 @@ html body .contact {
 }
 
 html body .contact-wrapper {
-  background-image: url(../img/front/room.png);
+  background-image: url(../img/front/room_pic.png);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -2383,7 +2385,7 @@ html body .contact-wrapper .concept a .cp_arrows [class*='cp_arrow'] {
   top: 1em;
   left: 14px;
   margin: 0.8em;
-  border-width: 2px 2px 0 0;
+  border-width: 4px 4px 0 0;
   border-style: solid;
 }
 
@@ -2402,10 +2404,10 @@ html body .contact-wrapper .concept a .cp_arrows [class*='cp_arrow']:after {
 }
 
 html body .contact-wrapper .concept a .cp_arrows [class*='cp_arrow']:before {
-  top: -1.7px;
-  right: 0;
+  top: -2px;
+  right: 1.3px;
   width: 15px;
-  height: 2px;
+  height: 4px;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   -webkit-transform-origin: right top;
@@ -2427,7 +2429,7 @@ html body .contact-wrapper .concept a .cp_arrows .cp_arrow_right_up {
 }
 
 html body .contact-wrapper .concept a .concept-block {
-  margin-left: 7px;
+  margin-left: 20px;
   /*h4*/
   /*p*/
 }
@@ -2496,7 +2498,7 @@ html body .footer {
 }
 
 html body .footer h2 {
-  font-size: 37px;
+  font-size: 57px;
   text-align: center;
   padding-bottom: 32px;
   color: #414141;
@@ -2537,6 +2539,7 @@ html body .footer .footer-nav .nav_block p {
   font-size: 17px;
   margin-bottom: 15px;
   color: #414141;
+  font-weight: bold;
 }
 
 @media (max-width: 375px) {

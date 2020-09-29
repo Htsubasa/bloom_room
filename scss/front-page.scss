@@ -59,7 +59,7 @@ body{
 
     header{
 
-      margin-bottom: 30px;
+      margin-bottom: 28px;
     
       img{
         position: absolute;
@@ -68,11 +68,11 @@ body{
       }
     
       #header-inner{
-        max-width: 1400px;
+        max-width: 1300px;
         display: flex;
         justify-content: space-between;
         margin: 0 auto;
-        padding-top: 40px;  
+        padding-top: 30px;  
         padding-right: 15px;
         padding-left: 15px;
         box-sizing: border-box;
@@ -88,11 +88,9 @@ body{
         
         .logo{
           @include font-type;
-          font-size: 50px;
+          font-size: 33px;
           font-weight: bold;
           width: 280px;
-          height: 60px;
-          line-height: 67px;
           color: #414141;
     
     
@@ -177,7 +175,7 @@ body{
         display: initial;
           position: fixed;
           top: 25px;
-          right: 4%;
+          right: 7%;
           width: 30px;
           height: 24px;
           z-index: 4;
@@ -287,11 +285,11 @@ body{
         button{
           &:before{
         content: '';
-        width: 35px;
+        width: 20px;
         text-indent: 0px;
         position: absolute;
         top: -80px;
-        left: 720px;
+        left: 870px;
         border-bottom: 3px solid white;
 
 
@@ -328,7 +326,7 @@ body{
           color: #6CD6DB;
           position: absolute;
           top: -72px;
-          left: 695px;
+          left: 850px;
           font-weight: bold; 
 
           @include pc{
@@ -366,7 +364,7 @@ body{
           color: white;
           position: absolute;
           top: -72px;
-          left: 760px;
+          left: 880px;
           font-weight: bold;
 
 
@@ -405,12 +403,12 @@ body{
         .slick-active{
           button{
           &:before{
-        width: 35px;
+        width: 20px;
         content: '';
         text-indent: 0px;
         position: absolute;
         top: -80px;
-        left: 720px;
+        left: 820px;
         border-bottom: 3px solid #6CD6DB;
 
         @include pc{
@@ -479,6 +477,7 @@ body{
         img{
           width: 100%;
           margin: 0 auto;
+          height: 660px;
 
           @include pc{
             width: 80%;
@@ -509,7 +508,7 @@ body{
 
     position: absolute;
     top: 35%;
-    left: 8%;
+    left: 12.5%;
     opacity : 0;
     transform : translate(0, 30px);
     -webkit-transform: translate(0, 30px);
@@ -579,7 +578,7 @@ body{
         p{
           position: absolute;
           top: -190px;
-          left: 120px;
+          left: 170px;
           letter-spacing: 0.1em;
 
           @include tab{
@@ -642,9 +641,9 @@ span:after{
 
   .container_wrapper_pc{
     display: flex;
-    width: 1100px;
+    width: 1165px;
     margin: 0 auto;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-bottom: 180px;
 
     @include pc{
@@ -815,7 +814,7 @@ span:after{
 
 .side-text{
   position: absolute;
-  right: 0px;
+  right: 50px;
   top: 250px;
   z-index: -1;
 }
@@ -1021,10 +1020,10 @@ span:after{
 .menu{
     .menu-wrap{
       background-image: url(../img/front/menu-image.png);
-      background-size: cover;
+      background-size: contain;
       margin: 0 auto;
       position: relative;
-      height: 545px;
+      height: 500px;
       width: 100%;
 
       @include tab{
@@ -1040,11 +1039,12 @@ span:after{
 
    img{
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -70px;
+    right: 0%;
     bottom: 0;
     left: 0;
-    width: 505px;
+    width: 450px;
+    height: 183px;
     margin: auto;
     opacity : 0;
     transform : translate(0, 30px);
@@ -1082,8 +1082,8 @@ span:after{
     -webkit-transform: translate(-60px, 30px);
     transition : all 1.5s;
     position: absolute;
-    top: 75%;
-    left: 50%;  
+    top: 72%;
+    left: 45%;  
 
     @include tab{
       left: 45%;  
@@ -1260,10 +1260,12 @@ span:after{
 .gallery_pc{
   padding-top: 165px;
   background-image: url(../img/front/gallery-logo.png);
-  background-position: 65% 23%;
+  background-position: 70% 22.5%;
+  background-size: 320px;
   padding-bottom: 140px;
   overflow: hidden;
   background-color:#EDFEFF;
+
 
   @include sp{
     display: none;
@@ -1307,12 +1309,15 @@ span:after{
   margin-top: 90px;
 
 
+
+
   .slick-dots{
 
     li{
       margin-right: 7px;
       margin-left: 7px;
       @include font-type;
+  
 
       @include sp-second{
         margin-right: 2px;
@@ -1403,6 +1408,8 @@ span:after{
   margin-bottom: 40px;
   width: 100%;
   margin-right: 56px;
+
+
 
 
   .img-block{
@@ -1562,7 +1569,7 @@ span:after{
     h3{
             color:#414141;
             writing-mode: vertical-rl;
-            font-size: 22px;
+            font-size: 39px;
             letter-spacing: 0.05;
         
 
@@ -1638,7 +1645,7 @@ span:after{
 
   .event_pc_wrap{
     background-image: url(../img/front/event.png);
-    background-size: cover;
+    background-size: contain;
     height: 546px;
     position: relative;
 
@@ -1650,15 +1657,15 @@ span:after{
     .event-content{
       border: 7px solid white;
       text-align: center;
-      width: 693px;
+      width: 640px;
       opacity : 0;
       transform : translate(0, 30px);
       -webkit-transform: translate(0, 30px);
       transition : all 1.5s;
-      padding-top: 82px;
+      padding-top: 77px;
       margin: 0 auto;
       position: absolute; 
-      top: 0;
+      top: -20px;
       right: 0;
       bottom: 0;
       left: 0;
@@ -1674,10 +1681,9 @@ span:after{
 
       h2{
           color: white;
-          margin-bottom: 30px;
+          margin-bottom: 20px;
           font-size: 31px;
           @include font-type-third;
-          font-weight: normal;
 
 
       @include tab{
@@ -1692,6 +1698,7 @@ span:after{
           display: inline-block;
           font-size: 21px;
           @include font-type-third;
+          font-weight: bold;
 
           @include tab{
             font-size: 15px;
@@ -1843,7 +1850,7 @@ span:after{
 
       .google-map{
           margin-top: 30px;
-          height: 705px;
+          height: 630px;
 
 
           @include tab{
@@ -1886,173 +1893,172 @@ span:after{
 
 .contact{
 
-&-wrapper{
-background-image: url(../img/front/room.png);
-background-size: cover;
-background-position:center;
-width: 100%;
-position: relative;
-height: 255px;
-
-@include sp-second(){
-  height: 128px;
-}
-
-
-.concept{
-  display: flex;
-  margin-bottom: 30px;
-  z-index: 10;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);  
-
-
-  a{
-    display: flex;
-
-  .cp_arrows {
-
-    width: 76px;
-    height: 76px;
-      border-radius: 50%;/*角丸*/
-      border: solid 3px #FFFFFF;
-
-      @include sp-second(){
-        width: 34px;
-        height: 34px;
-      }
-
-
-  }
-  .cp_arrows [class*='cp_arrow'] {
-      position: relative;
-      display: inline-block;
-      -webkit-box-sizing: border-box;
-              box-sizing: border-box;
-      vertical-align: middle;
-      color: #FFFFFF;
-  }
-  .cp_arrows [class*='cp_arrow']:after,
-  .cp_arrows [class*='cp_arrow']:before {
-      -webkit-box-sizing: border-box;
-              box-sizing: border-box;
-      content: '';
-  }
-  .cp_arrows [class*='cp_arrow'] {
-    width: 14px;
-    height: 15px;
-    top: 1em;
-    left: 14px;
-      margin: 0.8em;
-      border-width: 2px 2px 0 0;
-      border-style: solid;
-
-      @include sp-second(){
-        width: 10px;
-        height: 12px;  
-        top: -0.3em;
-        left: -3px;  
-      }
-
-  }
-  .cp_arrows [class*='cp_arrow']:before,
-  .cp_arrows [class*='cp_arrow']:after {
-      position: absolute;
-  }
-
-  .cp_arrows [class*='cp_arrow']:before {
-      top: -1.7px;
-      right: 0;
-      width: 15px;
-      height: 2px;
-      -webkit-transform: rotate(-45deg);
-              transform: rotate(-45deg);
-      -webkit-transform-origin: right top;
-              transform-origin: right top;
-      -webkit-box-shadow: inset 0 0 0 32px;
-              box-shadow: inset 0 0 0 24px;
-  }
-  .cp_arrows [class*='cp_arrow']:after {
-      top: -4px;
-      left: -2px;
-      -webkit-box-shadow: inset 0 0 0 32px, 16px 17px;
-              box-shadow: inset 0 0 0 24px, 8px 9px;
-  }
-
-  .cp_arrows .cp_arrow_right_up {
-      -webkit-transform: rotate(0deg);
-              transform: rotate(0deg);
-  }
-
-
-
-  .concept-block{
-    margin-left: 7px;
-
-      h4{
-        font-size: 44px;
-          @include font-type-second();
-          color: #FFFFFF;
-          font-weight: 600;
-          letter-spacing: 0.05em;
-
-          @include sp(){
-            font-size: 35px;
-          }
-
-          @include sp-second(){
-            font-size: 20px;
-          }
-
-      }/*h4*/
-
-      p{
-        font-size: 22px;
-        color: #FFFFFF;
-        line-height: 1.3;
-
-        @include sp-second(){
-          font-size: 10px;
-        }
-      }/*p*/
-
-  }/*concept-block*/
-}/*a*/
-  }/*concept*/
-
-
-  .concept:hover{
-
-    .cp_arrows {
-      transform : translate(0, -8px);
-      transition: 0.3s;
-    }
-  }/*concept:hover*/
-
-}/*wrapper*/
-
-.contact-wrapper::before {
-  width:100%;
+  &-wrapper{
+  background-image: url(../img/front/room_pic.png);
+  background-size: cover;
+  background-position:center;
+  width: 100%;
+  position: relative;
   height: 255px;
-  z-index: 0;
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(108, 214, 219, 0.9);
   
   @include sp-second(){
-    height:128px;
+    height: 128px;
   }
-}
-}/*contact*/
-
-
+  
+  
+  .concept{
+    display: flex;
+    margin-bottom: 30px;
+    z-index: 10;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);  
+  
+  
+    a{
+      display: flex;
+  
+    .cp_arrows {
+  
+      width: 76px;
+      height: 76px;
+        border-radius: 50%;/*角丸*/
+        border: solid 3px #FFFFFF;
+  
+        @include sp-second(){
+          width: 34px;
+          height: 34px;
+        }
+  
+  
+    }
+    .cp_arrows [class*='cp_arrow'] {
+        position: relative;
+        display: inline-block;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        vertical-align: middle;
+        color: #FFFFFF;
+    }
+    .cp_arrows [class*='cp_arrow']:after,
+    .cp_arrows [class*='cp_arrow']:before {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        content: '';
+    }
+    .cp_arrows [class*='cp_arrow'] {
+      width: 14px;
+      height: 15px;
+      top: 1em;
+      left: 14px;
+        margin: 0.8em;
+        border-width: 4px 4px 0 0;
+        border-style: solid;
+  
+        @include sp-second(){
+          width: 10px;
+          height: 12px;  
+          top: -0.3em;
+          left: -3px;  
+        }
+  
+    }
+    .cp_arrows [class*='cp_arrow']:before,
+    .cp_arrows [class*='cp_arrow']:after {
+        position: absolute;
+    }
+  
+    .cp_arrows [class*='cp_arrow']:before {
+        top: -2px;
+        right: 1.3px;
+        width: 15px;
+        height: 4px;
+        -webkit-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+        -webkit-transform-origin: right top;
+                transform-origin: right top;
+        -webkit-box-shadow: inset 0 0 0 32px;
+                box-shadow: inset 0 0 0 24px;
+    }
+    .cp_arrows [class*='cp_arrow']:after {
+        top: -4px;
+        left: -2px;
+        -webkit-box-shadow: inset 0 0 0 32px, 16px 17px;
+                box-shadow: inset 0 0 0 24px, 8px 9px;
+    }
+  
+    .cp_arrows .cp_arrow_right_up {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+  
+  
+  
+    .concept-block{
+      margin-left: 20px;
+  
+        h4{
+          font-size: 44px;
+            @include font-type-second();
+            color: #FFFFFF;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+  
+            @include sp(){
+              font-size: 35px;
+            }
+  
+            @include sp-second(){
+              font-size: 20px;
+            }
+  
+        }/*h4*/
+  
+        p{
+          font-size: 22px;
+          color: #FFFFFF;
+          line-height: 1.3;
+  
+          @include sp-second(){
+            font-size: 10px;
+          }
+        }/*p*/
+  
+    }/*concept-block*/
+  }/*a*/
+    }/*concept*/
+  
+  
+    .concept:hover{
+  
+      .cp_arrows {
+        transform : translate(0, -8px);
+        transition: 0.3s;
+      }
+    }/*concept:hover*/
+  
+  }/*wrapper*/
+  
+  .contact-wrapper::before {
+    width:100%;
+    height: 255px;
+    z-index: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(108, 214, 219, 0.9);
+    
+    @include sp-second(){
+      height:128px;
+    }
+  }
+  }/*contact*/
+  
 
 
 
@@ -2064,7 +2070,7 @@ padding-bottom: 80px;
 
 
 h2{
-  font-size: 37px;
+  font-size: 57px;
   text-align: center;
   padding-bottom: 32px;
   color: #414141;
@@ -2088,7 +2094,6 @@ h2{
   }
 
   .nav_block{
-
     position: relative;
 
 
@@ -2096,6 +2101,8 @@ h2{
     font-size: 17px;
     margin-bottom: 15px;
     color:#414141;
+    font-weight: bold;
+
 
     @include sp-second(){
       font-size: 13px;
