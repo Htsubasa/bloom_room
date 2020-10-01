@@ -114,7 +114,7 @@ body{
             display: none;
             @include font-type;
             position: fixed;
-            height: 400px;
+            height: 450px;
             background-color: #ffffff;
             width: 100%;
             color: rgb(0, 0, 0);
@@ -316,6 +316,11 @@ body{
                  display: block;  
                  margin-bottom: 43px;
                  font-weight: normal;
+
+                 @include sp-second(){
+                  font-size: 14px;
+                }
+     
       
              }/*sub_mainvisual_text*/
       
@@ -406,6 +411,7 @@ body{
         text-align: center;
         line-height: 1em;
         font-weight: 600;
+        font-weight: bold;
 
 
         @include pc{
@@ -470,7 +476,7 @@ body{
       transition : all 2s;
       margin: 0 0 0 auto;
       margin-bottom: 120px;
-      margin-top: 120px;
+      margin-top: 90px;
 
       @include pc{
         height: 426px;
@@ -549,7 +555,7 @@ body{
         top: 15%;
         left: -10%;
           width: 464px;
-          height: 364px;
+          height: 360px;
           background-color: #FFFFFF;
           border-radius: 5px;
           padding-top: 80px;
@@ -584,6 +590,7 @@ body{
               font-size: 20px;
               margin-bottom: 18px;
               @include font-type-third();
+              font-weight: 900;
           }
 
           p{
@@ -626,7 +633,7 @@ body{
   transition : all 2s;
   margin: 0 0 0 auto;
   margin-bottom: 120px;
-  margin-top: 120px;
+  margin-top: 90px;
   margin-left: 0;
 
   @include pc{
@@ -659,7 +666,7 @@ body{
       -webkit-transform: translate(-30px, 0px);
       transition: all 1.5s;
       font-family: "Golden Plains - Demo";
-      width: 450px;
+      width: 480px;
 
 
       @include pc{
@@ -791,7 +798,7 @@ body{
             margin-bottom: 340px;  
 
             @include sp-second(){
-              margin-bottom: 290px;  
+              margin-bottom: 180px;  
             }
 
             
@@ -871,8 +878,8 @@ body{
                   top: 75%;
                   left: 50%;
                   width: 315px;
-                  height: 280px;
-                  padding-top: 56px;
+                  height: 212px;
+                  padding-top: 50px;
                   padding-right: 20px;
                   padding-left: 20px;
                 }
@@ -883,6 +890,9 @@ body{
                     font-size: 20px;
                     margin-bottom: 18px;
                     @include font-type-third();
+                    @include sp-second(){
+                      margin-bottom: 14px;
+                    }
                 }
 
                 p{
@@ -933,6 +943,7 @@ body{
           color: #6CD6DB;
           letter-spacing: 0.05em;
           @include font-type-second;
+          font-weight: 600;
 
           @include sp(){
             font-size:45px;
@@ -1036,8 +1047,8 @@ body{
           border: solid 3px #FFFFFF;
     
           @include sp-second(){
-            width: 34px;
-            height: 34px;
+            width: 44px;
+            height: 44px;
           }
     
     
@@ -1068,8 +1079,8 @@ body{
           @include sp-second(){
             width: 10px;
             height: 12px;  
-            top: -0.3em;
-            left: -3px;  
+            top: 0em;
+            left: 2px;  
             border-width: 2px 2px 0 0;
 
           }
@@ -1132,7 +1143,7 @@ body{
             }
   
             @include sp-second(){
-              font-size: 20px;
+              font-size: 25px;
             }
   
         }/*h4*/
@@ -1144,7 +1155,7 @@ body{
           letter-spacing: 0.05em;
   
           @include sp-second(){
-            font-size: 10px;
+            font-size: 12px;
           }
         }/*p*/
   
@@ -1179,7 +1190,6 @@ body{
     }
   }
   }/*contact*/
-  
 
 
 
