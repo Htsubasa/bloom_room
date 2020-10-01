@@ -582,7 +582,6 @@ body{
   }
 
   @include sp-second(){
-    justify-content: space-around;
   }
 
 
@@ -604,10 +603,9 @@ body{
             width: 125px;
             margin-left: 20px;
             position: absolute;
-            bottom: 30%;
+            bottom: 24%;
 
             @include sp-second(){
-              bottom: 30%;
 
             }
             
@@ -634,7 +632,7 @@ body{
 
             @include sp-second(){
               left: -7%;
-              bottom: 103px;
+              bottom: 90px;
             }
             
             p{
@@ -677,7 +675,7 @@ body{
 
         p{
           @include sp{
-            font-size: 15px;
+            font-size: 12px;
           }
             font-size: 3.3vw;
             letter-spacing: 0.1em;
@@ -686,7 +684,7 @@ body{
 
         .odd{
           @include sp{
-            font-size: 15px;
+            font-size: 12px;
           }
             margin-left: 20px;
         }
@@ -699,6 +697,7 @@ body{
         writing-mode: vertical-rl;
         font-size: 22px;
         letter-spacing: 0.05;
+        @include font-type-second();
       }
         @include sp-second{
             font-size: 22px;
@@ -719,16 +718,16 @@ body{
     }/*h3*/
 
     h3:nth-child(odd){
-      margin-left: 33%;
+      margin-left: 13%;
       @include sp-second(){
-        margin-left: 0px;
+        margin-left: 1vw;
       }
     }
 
     h3:nth-child(even){
       margin-right: 33%;
       @include sp-second(){
-        margin-right: 0px;
+        margin-right: 3vw;
       }
     }
 }/*gallery-item*/
