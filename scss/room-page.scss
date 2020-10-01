@@ -413,14 +413,19 @@ body{
       width: 750px;
     }
 
+   
     @include tab{
       width: 80%;
     }
 
+    @include sp{
+      padding-top: 0px;
+    }
+
+
     @include sp-second(){
       display: initial;    
       width: 90%;
-      padding-top: 0px;
     }
 
 

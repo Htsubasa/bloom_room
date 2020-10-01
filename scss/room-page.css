@@ -707,11 +707,16 @@ html body .top_text_block {
   }
 }
 
+@media (max-width: 560px) {
+  html body .top_text_block {
+    padding-top: 0px;
+  }
+}
+
 @media (max-width: 375px) {
   html body .top_text_block {
     display: initial;
     width: 90%;
-    padding-top: 0px;
   }
 }
 
